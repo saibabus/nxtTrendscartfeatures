@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.ordersummary {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.order-summary-heading {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #616e7c;
+}
+.spanheading {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #171f46;
+  font-weight: bold;
+}
+.order-summary-items {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #616e7c;
+}
+
+.order-summary-btn {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  padding: 5px;
+}
